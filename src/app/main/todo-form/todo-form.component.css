@@ -1,0 +1,24 @@
+.todo-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.todo-form {
+  width: 50%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.todo-form > label {
+  color: white;
+}
+.todo-form > input {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  background-color: white;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  border-bottom: 1px solid #8b8787;
+}

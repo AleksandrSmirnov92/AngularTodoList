@@ -1,13 +1,25 @@
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
   height: 2em;
-  background-color: hsl(44, 62%, 80%);
+  background-color: #9395d3;
 }
-.counter-title {
-  color: #004040;
+.header-title {
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 50%;
+  font-size: 1rem;
+  font-family: Helvetica;
+  font-weight: 700;
+}
+.header-counter {
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 50%;
   font-size: 1rem;
   font-family: Helvetica;
   font-weight: 700;

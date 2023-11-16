@@ -5,7 +5,7 @@
   height: 100%;
 }
 .main {
-  background-color: #d2b88e;
+  background-color: #d6d7ef;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -17,12 +17,4 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-}
-.todo-list {
-  background-color: #f2dcc2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 1em;
-  margin-right: 1em;
 }
